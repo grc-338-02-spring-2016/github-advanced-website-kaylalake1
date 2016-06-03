@@ -1,0 +1,762 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* This is the beginning of my CONTACT PAGE CSS */
+
+
+a{
+    text-decoration: none;
+    color:  white;
+}
+
+
+
+
+h1{
+    font-family: "Karla", sans-serif;
+    font-size: 3em;
+    color: white;
+    font-weight: 600;
+    letter-spacing: .15em;
+    text-align: center;
+}
+
+h2{
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    font-size: 1.8em;
+    line-height: 1.8em;
+    letter-spacing: 1.3px;
+    
+   
+}
+
+h3{
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    list-style: none;
+    letter-spacing: 1.3px;
+    line-height: 3em;
+    
+}
+
+
+h4{
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #CF013A;
+    font-size: 1.3em;
+    letter-spacing: 1.3px;
+    
+}
+
+
+h5{
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #CF013A;
+    font-size: 1.3em;
+    list-style: none;
+    letter-spacing: 1.3px;
+    line-height: 3em;
+    
+}
+
+
+
+p{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    text-align: center;
+    color: white;
+    line-height: 1.5em;
+    letter-spacing: .04em;
+    
+    
+}
+
+p.footer{
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    text-align: center;
+    color: #CF013A;
+    letter-spacing: .04em;
+    padding-bottom: 0px;
+    
+    
+}
+
+p.footerred{
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    text-align: center;
+    color: white;
+    letter-spacing: .04em;
+    padding-bottom: 0px;
+    
+    
+}
+
+
+
+
+li.static{
+     background-color: white;
+     color: #ADE4F6;
+    
+    
+}
+
+li:hover {
+    
+    background-color: white;
+    color: #CF013A;
+    
+}
+
+
+
+ul.white li.static{
+    background-color: white;
+    color: #ADE4F6;
+    
+    
+}
+
+ul.white li.static:hover{
+    background-color: white;
+    color: #ADE4F6;
+    
+    
+}
+
+ul.white li:hover {
+    
+    background-color: #CF013A;
+    color: white;
+    
+}
+
+ul.white a {
+
+    color: #CF013A;
+    
+}
+
+
+
+
+
+.header {
+    width: 100%;
+    padding-top: 2.5em;
+    padding-bottom: 2em;
+}
+
+.footer {
+    background-color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: .1em 0 0 0;
+   
+    
+}
+
+.footerred {
+    background-color: #CF013A;
+    text-align: center;
+    font-size: 1.5em;
+    padding: .1em 0 0 0;
+   
+    
+}
+
+
+#main {
+    float: left;
+    width: 100%;
+    margin: 0 5%;
+    margin-top: 40px;
+    border: solid yellow 1px; 
+  
+}
+
+#nav {
+    
+    width: 100%;
+    margin: 0;
+    margin-top: 2em;
+  
+}
+
+#about {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2em;  
+  
+}
+
+#paragraph{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+   
+  
+}
+
+
+#paragraph img {
+    width: 300px;
+    margin-left: 0;
+}
+
+
+
+
+#image{
+    display: block;
+    width: 210px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: solid white 7px; 
+  
+}
+
+#image img{
+     width: 190px;
+     padding-left: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    
+}
+
+
+#art{
+    display: block;
+    width: 210px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: solid #CF013A 7px; 
+  
+}
+
+#art img{
+     width: 190px;
+     padding-left: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    
+}
+
+#arttwo{
+    display: block;
+    width: 210px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: solid #CF013A 7px;  
+  
+}
+
+#arttwo img{
+     width: 190px;
+     padding-left: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    
+  
+}
+
+.footer img{
+     width: 50px;
+     padding-top: 15px;
+     padding-bottom: -2px;
+    
+}
+
+.footerred img{
+     width: 50px;
+     padding-top: 15px;
+     padding-bottom: -2px;
+    
+}
+
+
+
+
+#line{
+   
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+
+#contactline{
+   
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+#lineleft{
+   
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+#lineright{
+   
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+
+
+
+#linetwo{
+    display: block;
+    width: 100px;
+    height: 8px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #ADE4F6;  
+}
+
+
+
+
+
+/*------------------hamburger menu------------------*/
+
+.menu-btn span {
+ display: block;
+ width: 22px;
+ height: 4px;
+ margin: auto;
+ margin-top: 4px;
+ margin-bottom: 5px;
+ background-color: white;
+ z-index: 99;
+}
+
+.responsive-menu{
+ display: none;
+ margin-top: 15px;
+}
+ 
+.expand {
+ display: block; 
+}
+/*---------------end of hamburger menu---------------*/
+
+
+/*------------------CONTACT PAGE---------------------*/
+
+/* Centre the page */
+.body {
+    display:block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* Centre the form within the page */
+form {
+    display:block;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+/* Style the text boxes */
+input, textarea {
+    font-family: "Karla" sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+	height:200px;
+	background:white;
+	border-style: none;
+	padding: 10px;
+    margin-top: 30px;
+	color: #CF013A;
+    font-size: 1em;
+    
+}
+
+#submit {
+    width:300px;
+    height:60px;
+    margin-top:20px;
+    border: white 2px;
+    margin-bottom: 40px;
+    font-size: 2em;
+    font-style: none;
+    letter-spacing: 5px;
+    background-color: #ADE4F6;
+    color: white;
+    
+    
+}
+
+#filler {
+    font-family: "Karla" sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+	height:30px;
+	background:white;
+	border-style: none;
+	padding: 10px;
+    margin-top: 30px;
+    font-size: 1em;
+    
+}
+
+input:focus, textarea:focus {
+    border:1px solid white;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #CF013A;
+  letter-spacing: 3px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  color: white;
+  letter-spacing: 3px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+  color: white;
+  letter-spacing: 3px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+  color: white;
+  letter-spacing: 3px;
+}
+
+/*---------------END OF CONTACT PAGE---------------*/
+
+
+
+
+
+
+
+
+
+/* For tablets: */
+@media only screen and (min-width: 768px) {
+ 
+h1{
+    font-size: 4em;
+}
+    
+h3{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.5em;
+}
+    
+h5{
+        font-size: 2em;
+    }
+    
+.menu-btn span {
+    width: 40px;
+    height: 5px;
+ 
+}
+/*---------------ART PAGE---------------*/
+.parent{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+        
+    }
+    
+#lineleft{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    margin-left: 9%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+#lineright{
+   
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 79%;
+    margin-bottom: 10px;
+
+}
+    
+    #line{
+    margin-top: 50px;
+    margin-bottom: 10px; 
+    }
+    
+/*---------------CONTACT PAGE---------------*/
+
+#filler {
+    width: 80%;
+	height: 60px;
+    font-size: 1.5em;
+    text-align: center;
+    }
+    
+input, textarea {
+    width: 80%;
+	height: 210px;
+    font-size: 1.5em;
+    text-align: center;
+}
+    
+#submit {
+    width: 84%;
+    height:90px;
+    margin-top: 40px;
+    
+}    
+    
+h2{
+        font-size: 2.4em;
+    }
+    
+#contactline{
+    
+    margin-bottom: 60px;
+    margin-top: 60px;
+        
+    }
+    
+
+
+    
+/*---------------ABOUT PAGE---------------*/
+    
+#paragraph{
+    margin-top: 80px;
+    width: 500px;
+  
+}
+    
+
+    
+    #about{
+        margin-bottom: 80px;
+    }
+    
+    
+#image{
+    width: 310px;
+    border: solid white 9px; 
+  
+}
+
+#image img{
+     width: 290px;
+    
+}
+    
+
+#paragraph img {
+    width: 500px;
+    margin-left: 0;
+}
+    
+ 
+
+}
+
+
+
+/* For desktop: */
+@media only screen and (min-width: 1024px) {
+    
+ /*---------------CONTACT PAGE---------------*/
+
+#filler {
+    width: 40%;
+	height: 60px;
+    font-size: 1.5em;
+    text-align: center;
+    }
+    
+input, textarea {
+    width: 40%;
+	height: 400px;
+    font-size: 1.5em;
+    text-align: center;
+}
+    
+#submit {
+    width: 42%;
+    height:90px;
+    margin-top: 40px;
+    
+}    
+    
+h2{
+        font-size: 2.4em;
+    }
+    
+#contactline{
+    
+    margin-bottom: 60px;
+    margin-top: 60px;
+        
+    } 
+    
+    
+#art{
+    display: block;
+    width: 290px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: solid #CF013A 7px; 
+  
+}
+
+#art img{
+     width: 270px;
+     padding-left: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    
+}
+
+#arttwo{
+    display: block;
+    width: 290px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: solid #CF013A 7px;  
+  
+}
+
+#arttwo img{
+     width: 270px;
+     padding-left: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    
+  
+}
+    
+    
+    
+    
+
+    
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
